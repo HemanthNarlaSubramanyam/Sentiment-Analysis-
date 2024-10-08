@@ -1,25 +1,26 @@
-# Sentiment-Analysis
+# Sentiment Analysis of McDonald's Reviews
+### Overview
+This project implements sentiment analysis using Python to evaluate customer reviews for McDonald's, utilizing the VADER (Valence Aware Dictionary and sEntiment Reasoner) library. Sentiment analysis, a crucial part of Natural Language Processing (NLP), categorizes text into positive, negative, or neutral sentiments, providing insights into public opinion and customer feedback.
 
+Dataset
+The analysis is based on the McDonald_s_Reviews.csv dataset from Kaggle, which contains various customer reviews, their ratings, and review timestamps.
 
+Steps Involved
+Library Import: Required libraries, including VADER for sentiment analysis, are imported.
+Data Loading: The dataset is loaded and inspected.
+Data Preparation: A new DataFrame is created with the relevant columns: review_time, review, and rating.
+Data Cleaning:
+Special characters are removed from the reviews.
+The rating column is converted to numerical values for analysis.
+The review_time column is transformed into a datetime format for better analysis.
+Sentiment Analysis with VADER:
+VADER is applied to assess the sentiment of each review.
+Sentiment scores (positive, negative, neutral, compound) are calculated.
+Sentiment tags (Positive, Negative, Neutral) are assigned based on the compound score.
+Results
+The analysis reveals that a significant majority of customers express positive sentiments regarding their experiences with McDonald's. While VADER's sentiment classification may not be 100% accurate, it demonstrates a high degree of reliability in predicting sentiment.
 
-
-
-
-
-
-
-# Brief about Project:
-
-Sentiment analysis, an integral part of Natural Language Processing (NLP), is a technique used to analyze digital text in order to determine its emotional tone. It involves categorizing text into positive, negative, or neutral sentiments, offering valuable insights into public opinion, customer feedback, market trends, and social media perceptions.
-
-Today, businesses generate vast amounts of unstructured textual data, encompassing emails, customer support chats, social media remarks, and reviews. Understanding customer attitudes and perceptions has become crucial for enhancing customer service.
-
-Python, as expected, offers a solution to effortlessly tackle this.
-
-Python offers several libraries that enable us to conduct sentiment analysis effectively such as VADER, Pattern, TextBlob, spaCy, CoreNLP, amongsy others.
-
-By evaluating word polarity and subjectivity, Python’s sentiment analysis play a crucial role in providing insights pivotal for decision-making across industries, revolutionizing data-driven decision strategies.
-
-We will be using McDonald_s_Reviews.csv from Kaggle’s McDonald’s Store Reviews dataset to perform the analysis using the VADER library.
+Conclusion
+This project showcases the effectiveness of sentiment analysis in understanding customer attitudes through unstructured textual data. The insights derived can be valuable for enhancing customer service and improving business strategies.
 
 
