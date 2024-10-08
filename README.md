@@ -1,5 +1,15 @@
 # Sentiment-Analysis
 
+
+
+
+
+
+
+
+
+# Brief about Project:
+
 Sentiment analysis, an integral part of Natural Language Processing (NLP), is a technique used to analyze digital text in order to determine its emotional tone. It involves categorizing text into positive, negative, or neutral sentiments, offering valuable insights into public opinion, customer feedback, market trends, and social media perceptions.
 
 Today, businesses generate vast amounts of unstructured textual data, encompassing emails, customer support chats, social media remarks, and reviews. Understanding customer attitudes and perceptions has become crucial for enhancing customer service.
