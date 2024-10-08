@@ -1,5 +1,8 @@
 # Sentiment Analysis of McDonald's Reviews
 
+![image](https://github.com/user-attachments/assets/b4bdbf17-39a3-495d-bdb6-f8a5db718042)
+
+
 ## Overview
 This project implements sentiment analysis using Python to evaluate customer reviews for McDonald's, utilizing the VADER (Valence Aware Dictionary and sEntiment Reasoner) library. Sentiment analysis, a crucial part of Natural Language Processing (NLP), categorizes text into positive, negative, or neutral sentiments, providing insights into public opinion and customer feedback.
 
