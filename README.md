@@ -1,5 +1,4 @@
 # Sentiment Analysis of McDonald's Reviews
-
 ![image](https://github.com/user-attachments/assets/b4bdbf17-39a3-495d-bdb6-f8a5db718042)
 
 
